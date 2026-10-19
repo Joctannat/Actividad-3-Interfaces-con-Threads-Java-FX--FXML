@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="contenedor" alignment="CENTER" prefHeight="381.0" prefWidth="316.0" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.joctan.ejercicio_3_1.PrimaryController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <Label text="Contar número de clics" />
+      <TextField fx:id="caja" />
+      <Button fx:id="bCONTAR" mnemonicParsing="false" onAction="#contar" text="¡Contar!" />
+      <Label text="Esperar 10 segundos" />
+      <ProgressBar fx:id="barra" prefWidth="200.0" progress="0.0" />
+      <Button fx:id="botonESPERAR" mnemonicParsing="false" onAction="#progreso" text="¡Esperar!" />
+   </children>
+</VBox>
